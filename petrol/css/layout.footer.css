@@ -1,14 +1,14 @@
 /*  --  FOOTER  --  */
 #layout-footer {
 	width: 100%;
-	background: url(../../images/shade_bottom.png) top repeat-x;
+	background: url(../images/shade_bottom.png) top repeat-x;
 	clear: both;
 	background-color: #FFF;
 	padding-bottom: 1em;
 	}
 #layout-footer-inner {
 	padding: 1em 10px;
-	width: 1240px;
+	width: 980px;
 	margin:0 auto;
 	font-size: 0.9em;
 	}

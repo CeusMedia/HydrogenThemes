@@ -39,7 +39,7 @@ div.indicator-small span.indicator-outer {
 	}
 div.indicator-small div.indicator-inner {
 	height: 10px;
-/*	background-image: url(../../images/bar.png);*/
+/*	background-image: url(../images/bar.png);*/
 	}
 div.indicator-small span.indicator-percentage,
 div.indicator-small span.indicator-ratio {
