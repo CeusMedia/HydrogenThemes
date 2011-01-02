@@ -1,0 +1,15 @@
+table.bar {
+	width: 100%;
+	}
+table.bar td {
+	vertical-align: top;
+	}
+table.bar td.small {
+	width: 50px;
+	}
+table.bar td.full {
+	}
+table.bar td.small button {
+	height: 55px;
+	}
+
