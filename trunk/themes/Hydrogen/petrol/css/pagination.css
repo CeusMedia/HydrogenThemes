@@ -21,7 +21,7 @@ ul.pagination span {
 	float: left;
 	margin: 0em 0.3em 0.35em 0em;
 	padding: 0.2em 0.65em 0.2em 0.65em;   /* Links */
-	background: #EEEEEE url(../../images/layout-button-menu-gradient.png) repeat-x scroll center top;
+	background: #EEEEEE url(../images/layout-button-menu-gradient.png) repeat-x scroll center top;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #CCCCCC #999999 #999999 #CCCCCC;
@@ -39,13 +39,13 @@ ul.pagination span {
 ul.pagination a:hover {
 	border-color: #cdd7dd #9aa6aa #9aa6aa #cdd7dd;
 	background-color: #eff9ff;
-	background: url(../../images/layout-button-menu-hover-gradient.png) repeat-x bottom center #eff9ff;
+	background: url(../images/layout-button-menu-hover-gradient.png) repeat-x bottom center #eff9ff;
 	}
 
 ul.pagination a:focus {
 	border-color: #9aa6aa #cdd7dd #cdd7dd #9aa6aa;
 	color: #333;
-	background: url(../../images/layout-button-menu-hover-gradient.png) repeat-x bottom center #eff9ff;
+	background: url(../images/layout-button-menu-hover-gradient.png) repeat-x bottom center #eff9ff;
 	}
 ul.pagination a:active {
 	border-color: #999999 #CCCCCC #CCCCCC #999999;
