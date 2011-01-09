@@ -84,7 +84,7 @@ button.close span {
 	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/door.png);
 	}
 button.edit span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/accept.png);
+	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/pencil.png);
 	}
 button.exit span {
 	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/door_out.png);
@@ -133,6 +133,7 @@ button[disabled] {
 
 button.tiny {
     margin-right: 1px;
+	padding: 0px 1px;
 	}
 
 button.tiny span {
