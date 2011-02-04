@@ -55,6 +55,7 @@ fieldset ul.input li:last-child {
 	padding-bottom: 0.2em;
 	}
 
+legend.auth,
 legend.edit,
 legend.messages,
 legend.messages-new,
@@ -70,6 +71,9 @@ legend.reports {
 	padding-left: 28px;
 	}
 
+legend.auth {
+	background-image: url(//icons.ceusmedia.de/famfamfam/silk/lock.png);
+	}
 legend.edit {
 	background-image: url(//icons.ceusmedia.de/famfamfam/silk/pencil.png);
 	}
