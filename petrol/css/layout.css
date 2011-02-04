@@ -32,18 +32,6 @@
 	clear: both;
 	}
 
-
-#layout-content dl dt {
-	clear: both;
-	float: left;
-	width: 120px;
-	}
-#layout-content dl dd {
-	float: left;
-	width: 50%;
-	}
-
-
 a {
 	color: #23738F;
 	text-decoration: underline;
@@ -77,11 +65,11 @@ p {
 	font-size: 11px;
 	}
 hr {
-	background: url(../images/hr.png) repeat-x;
-	border: 0;
-	height: 3px;
+	clear: both;
+	display: block;
+	border-style: solid;
+	border-color: #CCC;
 	}
-
 
 
 /*  --  FLOATING  --  */
@@ -144,16 +132,14 @@ a.current {
 	font-weight: bold;
 	}
 
-#content dl dt {
+#layout-content dl dt {
 	clear: both;
 	float: left;
 	width: 120px;
-	line-height: 2em;
 	}
-#content dl dd {
+#layout-content dl dd {
 	float: left;
-	width: 50%;
-	line-height: 2em;
+	min-width: 50px;
 	}
 
 textarea.max_160 {
@@ -190,41 +176,3 @@ input.max {
 	padding-left: 22px;
 	}
 
-
-hr {
-	clear: both;
-	display: block;
-	position: relative;
-	border: none;
-	height: 1px;
-	padding: 1px;
-	background-color: #BBB;
-	}
-
-div.column-control {
-	float: right;
-	width: 16.5em;
-	}
-div.column-main {
-	margin-right: 18.5em;
-	}
-/*
-div.column-control {
-	float: right;
-	width: 32%;
-	}
-div.column-main {
-	float: left;
-	width: 65%;
-	}
-*/
-
-
-.column-left-66 {
-	float: left;
-	width: 65%;
-	}
-.column-right-33 {
-	float: right;
-	width: 33%;
-	}
