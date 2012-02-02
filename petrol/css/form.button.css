@@ -64,6 +64,8 @@ button.open span,
 button.remove span,
 button.reset span,
 button.search span,
+button.more span,
+button.less span,
 button.save span {
 	display: block;
 	min-height: 16px;
@@ -110,6 +112,12 @@ button.remove span {
 	}
 button.reset span {
 	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/bin_closed.png);
+	}
+button.more span {
+	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/bullet_arrow_down.png);
+	}
+button.less span {
+	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/bullet_arrow_up.png);
 	}
 
 
