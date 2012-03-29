@@ -34,11 +34,11 @@ fieldset ul.list {
 	margin: 0px;
 	padding: 0px;
 	}
-fieldset ul.list li {
+fieldset ul.list>li {
 	clear: both;
 	margin-bottom: 0.3em;
 	}
-fieldset ul.list li:last-child {
+fieldset ul.list>li:last-child {
 	}
 
 
@@ -48,10 +48,10 @@ fieldset ul.input {
 	margin: 0px;
 	}
 
-fieldset ul.input li {
+fieldset ul.input>li {
 	padding-bottom: 1.5em;
 	}
-fieldset ul.input li:last-child {
+fieldset ul.input>li:last-child {
 	padding-bottom: 0.2em;
 	}
 

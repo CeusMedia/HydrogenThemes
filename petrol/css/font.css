@@ -32,7 +32,7 @@
 	src: url(../fonts/Ubuntu-BI.ttf) format("truetype");
 	}
 
-/*
+
 html,
 body,
 button,
@@ -41,7 +41,7 @@ select {
 	font-family: "Ubuntu Regular", "Helvetica Neue", "Helvetica", "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif;
 	color: #333;
 	}
-*/
+
 body {
 	font-size: 80%
 	}
