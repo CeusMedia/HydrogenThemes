@@ -71,6 +71,12 @@ select.numeric {
 	text-align: right;
 	}
 
+input.max,
+select.max,
+textarea.max {
+	width: 97%;
+	}
+
 option {
 	padding: 0px 4px;
 	}
