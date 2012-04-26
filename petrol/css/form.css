@@ -31,8 +31,15 @@ textarea[disabled] {
 	color: #777;
 	}
 
+input.mandatory,
+select.mandatory,
+textarea.mandatory {
+	border: 1px solid #7F7F7F;
+	}
+	
+	
 input[type=text] {
-	width: 100%;
+/*	width: 100%;*/
 	}
 input.xs {
 	width: 3em;
@@ -141,6 +148,19 @@ ul.list li.user a {
 input.label {
 	border: 1px solid #DFDFDF;
 	background-color: #EFEFEF;
+	}
+
+label small {
+	font-weight: normal;
+	}
+label.mandatory {
+	font-weight: bold;
+	}
+label.mandatory:after{
+	content: "*";
+	padding-left: 2px;
+	color: red;
+	font-weight: normal;
 	}
 
 
