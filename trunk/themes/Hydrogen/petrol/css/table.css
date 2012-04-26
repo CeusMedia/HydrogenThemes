@@ -33,3 +33,7 @@ table tr.odd td {
 table button {
 	font-size: 0.8em;
 	}
+
+table tr td.actions {
+	padding: 2px 0px 0px 0px		
+	}
