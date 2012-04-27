@@ -17,8 +17,8 @@ fieldset legend {
 	top: -0.96em;*/
 	padding: 0.4em 1.5em 0em 1.5em;
 	font-size: 1.1em;
-	text-shadow: #BBB 1px 1px 1px;
-	border-width: 2px 2px 0px 2px;
+/*	text-shadow: #BBB 1px 1px 1px;
+*/	border-width: 2px 2px 0px 2px;
 	border-style: solid;
 	border-color: #CCC;
 	background-color: #FFF;
@@ -55,6 +55,7 @@ fieldset ul.input>li:last-child {
 	padding-bottom: 0.2em;
 	}
 
+legend.icon,
 legend.add,
 legend.auth,
 legend.edit,
@@ -69,8 +70,8 @@ legend.info,
 legend.library,
 legend.reports {
 	background-repeat: no-repeat;
-	background-position: 7px 7px;
-	padding-left: 28px;
+	background-position: 9px 8px;
+	padding-left: 32px;
 	}
 
 legend.add {
