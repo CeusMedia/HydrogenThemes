@@ -24,6 +24,14 @@ button {
 .button:hover {
 	background-position: 0 -199px;
 	}
+.button:disabled,
+.button:disabled:active,
+.button:disabled:focus,
+.button:disabled:hover {
+	cursor: default;
+	border-color: #999999 #999999;
+	background-position: 0 -198px;
+	}
 .button:active {
 	border-color: #999999 #CCCCCC #CCCCCC #999999;
 	background-position: 0 -199px;
@@ -76,48 +84,48 @@ button.save span {
 	outline: none;
 	}
 button.add span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/add.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/add.png);
 	}
 button.cancel span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/arrow_left.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/arrow_left.png);
 	}
 button.close span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/arrow_down.png);
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/door.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/arrow_down.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/door.png);
 	}
 button.edit span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/pencil.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/pencil.png);
 	}
 button.exit span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/door_out.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/door_out.png);
 	}
 button.save span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/accept.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/accept.png);
 	}
 button.search span,
 button.filter span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/magnifier.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/magnifier.png);
 	}
 button.lock span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/lock.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/lock.png);
 	background-position: -1px 0px;
 	}
 button.open span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/arrow_up.png);
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/door_open.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/arrow_up.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/door_open.png);
 	}
 button.delete span,
 button.remove span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/delete.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/delete.png);
 	}
 button.reset span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/bin_closed.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/bin_closed.png);
 	}
 button.more span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/bullet_arrow_down.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/bullet_arrow_down.png);
 	}
 button.less span {
-	background-image: url(http://icons.ceusmedia.com/famfamfam/silk/bullet_arrow_up.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/bullet_arrow_up.png);
 	}
 
 

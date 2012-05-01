@@ -14,6 +14,7 @@
 	}
 
 #layout-field {
+	clear: left;
 	min-height: 200px;
 	margin: 0 auto;
 	}
