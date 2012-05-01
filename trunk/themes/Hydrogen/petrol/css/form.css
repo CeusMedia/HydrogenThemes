@@ -129,19 +129,19 @@ ul.list li.user a {
 	}
 
 ul.list li.dashboard a {
-	background-image: url(//icons.ceusmedia.de/famfamfam/silk/wand.png);
+	background-image: url(//img.int1a.net/famfamfam/silk/wand.png);
 	}
 ul.list li.message a {
-	background-image: url(//icons.ceusmedia.de/famfamfam/silk/comment.png);
+	background-image: url(//img.int1a.net/famfamfam/silk/comment.png);
 	}
 ul.list li.role a {
-	background-image: url(//icons.ceusmedia.de/famfamfam/silk/group.png);
+	background-image: url(//img.int1a.net/famfamfam/silk/group.png);
 	}
 ul.list li.room a {
-	background-image: url(//icons.ceusmedia.de/famfamfam/silk/door.png);
+	background-image: url(//img.int1a.net/famfamfam/silk/door.png);
 	}
 ul.list li.user a {
-	background-image: url(//icons.ceusmedia.de/famfamfam/silk/user_green.png);
+	background-image: url(//img.int1a.net/famfamfam/silk/user_green.png);
 	}
 
 
@@ -170,8 +170,8 @@ option.direction {
 	padding-left: 1.8em;
 	}
 option.direction.directionASC {
-	background-image: url(//icons.ceusmedia.de/famfamfam/silk/arrow_up.png);
+	background-image: url(//img.int1a.net/famfamfam/silk/arrow_up.png);
 	}
 option.direction.directionDESC {
-	background-image: url(//icons.ceusmedia.de/famfamfam/silk/arrow_down.png);
+	background-image: url(//img.int1a.net/famfamfam/silk/arrow_down.png);
 	}

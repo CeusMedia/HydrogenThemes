@@ -52,7 +52,6 @@
 	}
 #layout-navigation-main .single ul li a.active {
 	color: white;
-/*	font-family: 'Ubuntu Bold', "Helvetica Neue", "Helvetica", "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif;;*/
 	font-weight: bold;
 	font-size: 1.1em;
 	background-color: #00AFC4;
