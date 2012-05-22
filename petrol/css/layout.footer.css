@@ -1,15 +1,16 @@
 /*  --  FOOTER  --  */
 #layout-footer {
+	position: relative;
 	width: 100%;
 	background: url(../images/shade_bottom.png) top repeat-x;
 	clear: both;
 	background-color: #FFF;
-	padding-bottom: 1em;
+	padding: 1em 0em 1em 0em;
 	}
 #layout-footer-inner {
-	padding: 1em 10px;
+	padding: 0px 10px;
 	width: 980px;
-	margin:0 auto;
+	margin: 0 auto;
 	font-size: 0.9em;
 	}
 #layout-footer-inner li {
@@ -22,3 +23,16 @@
 #layout-footer-inner li:last-child {
 	border: 0px;
 	}
+#layout-footer #footer-info {
+	}
+#layout-footer #footer-badges {
+	}
+#layout-footer #footer-badges span {
+	padding-left: 1em;
+	}
+#layout-footer #footer-badges img {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	}
+

@@ -3,23 +3,22 @@
 
 /*  --  messenger  --  */
 #layout-messenger>ul {
-	margin: 0em 0em 1em 0em;
+	margin: 0.5em 0em 1em 0em;
 	padding: 0px;
-	border-width: 0px 1px 1px 1px;
+	border-width: 1px 1px 1px 1px;
 	border-style: solid;
 	border-color: gray;
-	border-radius: 0em 0em 0.4em 0.4em;
-	-moz-border-radius: 0em 0em 0.4em 0.4em;
+	border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
 	list-style:none;
 	margin: 0px auto;
+	overflow: hidden;
 	}
 
 #layout-messenger>ul>li {
 	padding: 0.5em 1em 0.5em 3em;
 	background-repeat: no-repeat;
 	background-position: 0.9em 0.6em;
-	border-radius: 0em 0em 0.3em 0.3em;
-	-moz-border-radius: 0em 0em 0.3em 0.3em;
 	font-size: 1.1em;
 	}
 
