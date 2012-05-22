@@ -24,13 +24,17 @@ button {
 .button:hover {
 	background-position: 0 -199px;
 	}
-.button:disabled,
-.button:disabled:active,
-.button:disabled:focus,
-.button:disabled:hover {
-	cursor: default;
-	border-color: #999999 #999999;
-	background-position: 0 -198px;
+.button[disabled],
+.button[disabled]:active,
+.button[disabled]:focus,
+.button[disabled]:hover,
+.button[readonly],
+.button[readonly]:active,
+.button[readonly]:focus,
+.button[readonly]:hover {
+	cursor: default !important;
+	border-color: #999999 #999999 !important;
+	background-position: 0 -198px !important;
 	}
 .button:active {
 	border-color: #999999 #CCCCCC #CCCCCC #999999;
@@ -142,6 +146,7 @@ button.less span {
 	}
 
 
+button[readonly],
 button[disabled] {
 	opacity: 0.5;
 	color: black;
