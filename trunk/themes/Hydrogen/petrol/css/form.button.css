@@ -87,6 +87,9 @@ button.save span {
 	padding-right: 4px;
 	outline: none;
 	}
+button.accept span {
+	background-image: url(http://img.int1a.net/famfamfam/silk/accept.png);
+	}
 button.add span {
 	background-image: url(http://img.int1a.net/famfamfam/silk/add.png);
 	}
@@ -96,6 +99,9 @@ button.cancel span {
 button.close span {
 	background-image: url(http://img.int1a.net/famfamfam/silk/arrow_down.png);
 	background-image: url(http://img.int1a.net/famfamfam/silk/door.png);
+	}
+button.decline span {
+	background-image: url(http://img.int1a.net/famfamfam/silk/cancel.png);
 	}
 button.edit span {
 	background-image: url(http://img.int1a.net/famfamfam/silk/pencil.png);
