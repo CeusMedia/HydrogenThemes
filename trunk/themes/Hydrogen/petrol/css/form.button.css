@@ -59,6 +59,7 @@ button {
 
 
 /*  BUTTON ICONS  */
+button.icon span,
 button.accept span,
 button.ban span,
 button.decline span,
