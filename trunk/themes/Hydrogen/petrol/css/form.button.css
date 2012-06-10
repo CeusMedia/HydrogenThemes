@@ -73,12 +73,17 @@ button.edit span,
 button.exit span,
 button.filter span,
 button.lock span,
+button.unlock span,
 button.open span,
 button.remove span,
 button.reset span,
 button.search span,
 button.more span,
 button.less span,
+button.calendar span,
+button.date span,
+button.magic span,
+button.wizard span,
 button.save span {
 	display: block;
 	min-height: 16px;
@@ -121,6 +126,10 @@ button.lock span {
 	background-image: url(http://img.int1a.net/famfamfam/silk/lock.png);
 	background-position: -1px 0px;
 	}
+button.unlock span {
+	background-image: url(/lib/cmIcons/famfamfam/silk/lock_break.png);
+	background-position: -1px 0px;
+	}
 button.open span {
 	background-image: url(http://img.int1a.net/famfamfam/silk/arrow_up.png);
 	background-image: url(http://img.int1a.net/famfamfam/silk/door_open.png);
@@ -138,7 +147,14 @@ button.more span {
 button.less span {
 	background-image: url(http://img.int1a.net/famfamfam/silk/bullet_arrow_up.png);
 	}
-
+button.calendar span,
+button.date span {
+	background-image: url(/lib/cmIcons/famfamfam/silk/calendar.png);
+	}
+button.magic span,
+button.wizard span {
+	background-image: url(/lib/cmIcons/famfamfam/silk/wand.png);
+	}
 
 /*  BUTTON BAR  */
 .buttonbar {
