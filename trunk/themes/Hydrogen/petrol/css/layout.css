@@ -50,8 +50,8 @@ h1 {
 	font-size: 1.6em;
 	}
 h2 {
-	margin:0 0 1em;
-	font-size: 1.5em;
+	margin: 0.6em 0em 0.3em 0em;
+	font-size: 1.4em;
 	}
 h3 {
 	margin:0 0 1em;
@@ -141,10 +141,20 @@ a.current {
 	font-weight: bold;
 	}
 
+#layout-content dl {
+	margin: 0.1em 0em 0.2em 0em;
+	}
 #layout-content dl dt {
 	clear: both;
 	float: left;
 	width: 150px;
+	}
+#layout-content dl:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
 	}
 #layout-content dl dd {
 	float: left;
