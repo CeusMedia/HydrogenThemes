@@ -3,7 +3,7 @@
 	clear: both;
 	width: 100%;
 	min-height: 10px;
-	background-color: #00AFC4;
+	border-top: 8px solid #00AFC4;
 	}
 #layout-navigation-sub-inner {
 	width: 980px;
@@ -22,22 +22,31 @@
 	}
 #layout-navigation-sub .single ul li {
 	float: left;
-	margin-top: 2px;
 	margin-bottom: 2px;
 	margin-right: 2px;
+	font-size: 15px;
+	line-height: 27px;
 	}
 
 #layout-navigation-sub .single ul li a {
 	display: block;
 	padding-left: 0.8em;
 	padding-right: 0.8em;
+	background-color: #FFF;
+	background-color: #BFBFBF;
+	border-bottom-left-radius: 0.3em;
+	border-bottom-right-radius: 0.3em;
+	-moz-border-radius-bottompleft: 0.3em;
+	-moz-border-radius-bottompright: 0.3em;
+	-webkit-border-bottom-left-radius: 0.3em;
+	-webkit-border-bottom-right-radius: 0.3em;
 	font-weight: normal;
-	font-size: 1.0em;
+	font-size: 0.9em;
 	text-decoration: none;
-	text-shadow: black 1px 1px 1px;
-	color: #FFF;
-	font-size: 1.2em;
+	text-shadow: #BBB 1px 1px 1px;
+	color: #000;
 	outline: none;
+	background-position: 10px 5px;
 	}
 #layout-navigation-sub .single ul li a:hover {
 	background-color: #CFCFCF;
@@ -47,5 +56,6 @@
 	text-shadow: black 1px 1px 1px;
 	font-weight: bold;
 	letter-spacing: 1px;
+	background-color: #00AFC4;
 	}
 
