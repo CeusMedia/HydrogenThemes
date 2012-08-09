@@ -77,8 +77,7 @@
 
 
 
-#role-edit-rights {
-}
+#role-edit-rights {}
 #role-edit-rights li {
 	float: left;
 	display: block;
@@ -87,7 +86,6 @@
 	font-size: 0.9em;
 	color: #3F3F3F;
 	}
-
 #role-edit-rights li.changable {
 	color: black;
 	cursor: pointer;
@@ -95,7 +93,6 @@
 #role-edit-rights li.changable label {
 	cursor: pointer;
 	}
-
 #role-edit-rights li.green {
 	background-color: #BFFFBF;
 	}
