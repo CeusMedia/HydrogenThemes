@@ -36,6 +36,7 @@ fieldset ul.list {
 	}
 fieldset ul.list>li {
 	clear: both;
+	padding: 0px;
 	margin-bottom: 0.3em;
 	}
 fieldset ul.list>li:last-child {
