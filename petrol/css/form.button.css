@@ -115,6 +115,9 @@ button.edit span {
 button.exit span {
 	background-image: url(http://img.int1a.net/famfamfam/silk/door_out.png);
 	}
+button.kick span {
+	background-image: url(http://img.int1a.net/famfamfam/silk/exclamation.png);
+	}
 button.save span {
 	background-image: url(http://img.int1a.net/famfamfam/silk/accept.png);
 	}
