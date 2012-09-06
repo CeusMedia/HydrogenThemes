@@ -149,6 +149,9 @@ a.current {
 	float: left;
 	width: 150px;
 	}
+#layout-content dl dt small {
+	font-weight: normal;
+	}
 #layout-content dl:after {
     content: ".";
     display: block;

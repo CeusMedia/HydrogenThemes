@@ -69,6 +69,7 @@ legend.users-new,
 legend.filter,
 legend.info,
 legend.library,
+legend.lock,
 legend.reports {
 	background-repeat: no-repeat;
 	background-position: 9px 8px;
@@ -116,4 +117,7 @@ legend.library {
 	}
 legend.image {
 	background-image: url(//img.int1a.net/famfamfam/silk/image.png);
+	}
+legend.lock {
+	background-image: url(/lib/cmIcons/famfamfam/silk/lock.png);
 	}
