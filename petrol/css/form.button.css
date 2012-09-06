@@ -176,6 +176,7 @@ button[readonly],
 button[disabled] {
 	opacity: 0.5;
 	color: black;
+	cursor: default !important;
 	}
 
 button.tiny {
