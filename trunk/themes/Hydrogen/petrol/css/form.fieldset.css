@@ -29,6 +29,7 @@ fieldset legend {
 	}
 
 /*  FIELDSET: LIST  */
+/*	@deprecated		hopefully not used anymore
 fieldset ul.list {
 	list-style-type: none;
 	margin: 0px;
@@ -41,6 +42,7 @@ fieldset ul.list>li {
 	}
 fieldset ul.list>li:last-child {
 	}
+*/
 
 
 /*  FIELDSET: INPUT LIST  */
