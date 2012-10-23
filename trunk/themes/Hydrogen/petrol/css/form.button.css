@@ -152,12 +152,19 @@ button.less span {
 	}
 button.calendar span,
 button.date span {
-	background-image: url(/lib/cmIcons/famfamfam/silk/calendar.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/calendar.png);
 	}
 button.magic span,
 button.wizard span {
-	background-image: url(/lib/cmIcons/famfamfam/silk/wand.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/wand.png);
 	}
+button.filter.add span {
+	background-image: url(http://img.int1a.net/famfamfam/silk/magnifier_zoom_in.png);
+	}
+button.filter.remove span {
+	background-image: url(http://img.int1a.net/famfamfam/silk/magnifier_zoom_out.png);
+	}
+
 
 /*  BUTTON BAR  */
 .buttonbar {
