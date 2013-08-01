@@ -186,9 +186,11 @@ button[disabled] {
 	cursor: default !important;
 	}
 
-button.tiny {
+button.tiny,
+button.tiny:hover,
+button.tiny:active {
 	margin: 0px 1px 0px 0px;
-	padding: 1px 2px;
+	padding: 1px 2px 1px 3px;
 	}
 
 button.tiny span {
