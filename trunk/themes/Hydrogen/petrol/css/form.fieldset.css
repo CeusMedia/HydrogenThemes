@@ -26,6 +26,8 @@ fieldset legend {
 	border-top-right-radius: 0.4em;
 	-moz-border-radius-topleft: 0.4em;
 	-moz-border-radius-topright: 0.4em;
+	width: auto;
+	line-height: 1.5em;
 	}
 
 /*  FIELDSET: LIST  */
