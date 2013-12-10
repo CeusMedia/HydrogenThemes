@@ -84,6 +84,7 @@ button.calendar span,
 button.date span,
 button.magic span,
 button.wizard span,
+button.update span,
 button.save span {
 	display: block;
 	min-height: 16px;
@@ -157,6 +158,11 @@ button.date span {
 button.magic span,
 button.wizard span {
 	background-image: url(http://img.int1a.net/famfamfam/silk/wand.png);
+	}
+button.update span {
+	background-image: url(http://img.int1a.net/famfamfam/silk/layers.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/pill.png);
+	background-image: url(http://img.int1a.net/famfamfam/silk/arrow_up.png);
 	}
 button.filter.add span {
 	background-image: url(http://img.int1a.net/famfamfam/silk/magnifier_zoom_in.png);
